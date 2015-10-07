@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+Title: Persephone On Stage
+Author: Jared Easterday www.jaredeasterday.com
+*/
+
+/***** General Styles *****/
+
+body {
+	background:#000000;
+	font-family:Helvetica, Arial, sans-serif;
+	color:#FFFFFF;
+	}
+a {
+	text-decoration:none;
+	padding:3px;
+	}
+
+#navigation a {display:block;}
+
+#navigation a:link, #navigation a:visited {color:#fff;}
+
+#navigation a:hover, #navigation a:active {
+	color:#470201;
+	background-color:#fff;
+	}
+
+/***** Title Hover Styles *****/
+
+.title a:link, .title a:visited {color:#fff;}
+
+.title a:hover, h1.title a:active {
+	color:#470201;
+	background-color:#fff;
+	}
+
+/* This style is needed for IE7 to apply a background color to hover; actual value is meaningless */
+h1.title a:hover, h1.title a:active {height:10px;}
+	
+em {font-weight:bold;}
+
+
+	
+/***** News Styles *****/
+
+.italics {font-style:italic;}
+
+#news1, #news2 {
+	height:206px;
+	overflow:auto;
+	background-color:#fff;
+	color:#000000;
+	margin:20px 0 0 0 ;
+	}
+
+#news1 p, #news2 p {
+	margin:20px 30px 20px 37px;
+	line-height:20px;
+	}
+	
+#news1 a {
+	color:#470201;
+	width:207px;
+	padding:0;
+	}
+
+#news1 a:hover {text-decoration:underline;}
+	
+	
+/***** Navigation Hover Styles *****/
+
+#navigation ul li a:hover, #navigation ul li a:active {
+	background-color:fff;
+	height:25px;
+	}
+
+#navigation a.current {
+	color:#470201;
+	background-color:#fff;
+	}
+
+h1 {
+	font-size:75px;
+	margin:20px 0 0 30px;
+	}
+
+h2 {
+	font-size:38px;
+	margin:5px 0 20px 30px;
+	}
+
+#content {
+	position:relative;
+	width:1000px;
+	margin:auto;
+	background-image:url(../images/pom.jpg);
+	background-position:0 0px;
+	background-repeat:no-repeat;
+	height:669px;
+	overflow:hidden;
+	}
+
+#scroll {
+	height:410px;
+	overflow:auto;
+	background-color:#fff;
+	color:#000000;
+	margin:20px 0 0 0 ;
+	}
+
+#scroll h3 {
+	margin:20px;
+	font-weight:bold;
+	font-size:20px;
+	}
+
+#scroll p {
+	margin:20px 30px 20px 37px;
+	line-height:20px;
+	}
+	
+#scroll a {color:#470201;}
+
+#scroll a:hover {color:#0000CC;}
+
+/***** Column1 Styles *****/
+
+#column1 {
+	background-color:#fff;
+	width:1000px;
+	height:410px;
+	color:#000000;
+	overflow:auto;
+	float:left;
+	}
+
+#column1 ul {
+	margin:20px 0 0 30px;
+	font-size:14px;
+	font-weight:bold;
+	}
+	
+#column1 li {
+	line-height:16px;
+	}
+		
+#column1 h3 {
+	font-size:14px;
+	margin:10px 0 0 30px;
+	color:#666666;
+	}
+
+#column1 a:link, #column1 a:visited,
+#column2 a:link, #column2 a:visited
+	{color:#000;}
+
+#column1 a:hover, #column1 a:active,
+#column2 a:hover, #column2 a:active {
+	color:#CC0033;}
+
+#margin-top {margin-top:10px;}
+
+.sublist {
+	margin: 0 0 0 40px;
+	font-weight:normal;
+	color:#666666;
+	}
+
+.subtext {
+	font-size:10px;
+	margin:5px 10px 0 30px;
+	}
+
+
+/***** Column2 Styles *****/
+
+#column2 {
+	background-color:#fff;
+	width:450px;
+	height:410px;
+	color:#000000;
+	overflow:auto;
+	float:right;
+	}
+
+#column2 a {padding:0;}
+
+
+#column2 ul {
+	margin:10px 0 0 30px;
+	font-size:14px;
+	font-weight:bold;
+	}
+	
+#column2 li {line-height:15px;}
+		
+#column2 h3 {
+	font-size:14px;
+	margin:10px 0 0 30px;
+	color:#666666;
+	}
+
+.listEnd {
+	font-weight:normal;
+	color:#666666;
+	}
+
+
+/***** Navigation Styles *****/
+
+#navigation {
+	position:absolute;
+	top:610px;
+	left:80px;
+	}
+
+#navigation ul li {
+	font-size:25px;
+	float:left;
+	margin:0 10px 0 0 ;
+	display:block;
+	}
+	
